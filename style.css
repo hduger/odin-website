@@ -1,7 +1,11 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: lightgrey;
+    background-color: grey;
+    background-image: url("images/pexels-harun-tan-3980364.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
 }
 
 img {
@@ -9,10 +13,15 @@ img {
     background-color: transparent;
 
 }
-
 a {
     color: rgb(206, 206, 206);
     text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+    
+}
+a:hover {
+    background-color: white;
 }
 
 ul {
@@ -37,7 +46,12 @@ li {
     align-items: center;
     justify-content: space-between;
     padding: 8px;
-    background-color: #1f2937;
+    background-color: transparent;
+
+}
+
+.header:hover {
+    background-color: rgb(22, 22, 22);
 }
 
 .container {
@@ -58,7 +72,7 @@ li {
     flex: 1;
     justify-content: center;
     align-items: center;
-    background-color: #0a1931;
+    background-color: transparent;
 
 }
 
@@ -84,11 +98,32 @@ button {
     border-radius: 8px;
 }
 
+button:hover {
+    background-color: grey;
+}
+
 .body-info {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     padding: 20px;
+    color: white;
+    font-weight: 900;
+}
+
+.label {
+    background-color: rgb(3, 5, 7);
+   border-radius: 10px;
+}
+
+.content h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 20px;
 }
 
 .info-img {
@@ -97,4 +132,22 @@ button {
     border-radius: 15px;
     border: 4px solid black;
     object-fit: cover;
+    margin: 10px 20px;
+}
+
+.quote-section {
+    color: white;
+    font-size: 40px;
+    
+}
+
+.quote {
+    margin-bottom: 10px;
+}
+
+.author {
+    margin-top: 10px;
+    text-align: right;
+    margin-right: 21px;
+    font-size: 24px;
 }
