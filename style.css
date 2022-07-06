@@ -151,3 +151,36 @@ button:hover {
     margin-right: 21px;
     font-size: 24px;
 }
+
+.action {
+    display: flex;
+    background-color: rgb(85, 85, 85);
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 200px;
+    gap: 150px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.callto {
+    text-align: left;
+}
+
+.call,
+.prod {
+    color: white;
+    align-items: center;
+}
+
+.call {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.prod {
+    margin-top: 8px;
+}
